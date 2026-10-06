@@ -7,6 +7,10 @@ choice = input("メニュー番号を入力してください: ")
 
 if choice == "1":
     print("こんにちは！Gitチーム開発演習中です。")
+elif choice == "2":
+    num1 = int(input("1つ目の数: "))
+    num2 = int(input("2つ目の数: "))
+    print("計算結果:", num1 + num2)
 elif choice == "9":
     print("終了します。")
 else:
